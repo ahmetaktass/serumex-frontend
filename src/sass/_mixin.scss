@@ -1,0 +1,34 @@
+@mixin Flex-Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin Flex-Space-Between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin Flex-Space-Around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@mixin Flex-Column-Center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@mixin Flex-Column-Space-Between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@mixin Flex-Col {
+  display: flex;
+  flex-direction: column;
+}
+@mixin Flex-Row {
+  display: flex;
+  flex-direction: row;
+}
